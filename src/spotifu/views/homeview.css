@@ -1,3 +1,4 @@
 .home-view {
     grid-area: view;
+    padding: 1rem;
 }

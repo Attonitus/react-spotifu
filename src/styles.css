@@ -4,6 +4,9 @@
 @import './spotifu/components/playernav.css';
 @import './spotifu/components/searchbar.css';
 @import './spotifu/views/homeview.css';
+@import './spotifu//views/profileview.css';
+@import './spotifu//components/song.css';
+@import './spotifu/components/songlist.css';
 
 :root {
     font-size: 14px;

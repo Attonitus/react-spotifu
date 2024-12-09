@@ -1,0 +1,8 @@
+.song-list {
+    padding-inline: 2rem;
+    margin-block: 2rem;
+}
+
+.songs {
+    display: flex;
+}

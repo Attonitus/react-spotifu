@@ -1,10 +1,15 @@
 .player-nav {
-    grid-area: player;
+    background-color: var(--gray50);
     border-block-start: 0.1rem solid var(--gray30);
     display: flex;
     gap: 1rem;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 85%;
+    inline-size: 100%;
+    padding-block: 1rem;
+    block-size: 5.5rem;
 }
 
 .player-song-info {
@@ -36,6 +41,10 @@
 
 .artist-name {
     font-size: .85rem;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
 .player-controls {
@@ -196,7 +205,7 @@ input[type="range"]:disabled::-webkit-slider-thumb {
 
 @media screen and (min-width: 768px) {
     .player-controls {
-        inline-size: 23rem;
+        inline-size: 28rem;
     }
 
     .slider-container {
@@ -208,16 +217,16 @@ input[type="range"]:disabled::-webkit-slider-thumb {
     }
 
     .player-song-info {
-        inline-size: 15rem;
+        inline-size: 13rem;
         gap: 1rem;
     }
 
     .title-song {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
     }
 
     .artist-name {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .player-song-info-img img {

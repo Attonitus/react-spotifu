@@ -1,0 +1,39 @@
+.profile-view {
+    grid-area: view;
+    padding: 1rem;
+    max-inline-size: 50rem;
+    margin: auto;
+}
+
+.profile-info {
+    display: flex;
+    gap: .5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img {
+    inline-size: 10rem;
+    box-shadow: 0 .3rem .75rem rgba(255, 255, 255, 0.3);
+    border-radius: .75rem;
+
+}
+
+.profile-img img {
+    display: block;
+    inline-size: 100%;
+    border-radius: .75rem;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .profile-img {
+        inline-size: 20rem;
+    }
+}
+
+.songs-container {
+    padding: 1rem;
+}
