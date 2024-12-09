@@ -8,5 +8,5 @@
         "search search"
         "view view"
         "player player";
-    grid-template-rows: 75px 1fr 75px;
+    grid-template-rows: 75px 1fr 85px;
 }

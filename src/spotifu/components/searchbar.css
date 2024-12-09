@@ -3,7 +3,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid red;
 }
 
 .input-div {
@@ -30,14 +29,23 @@
 }
 
 .input-search {
-    border: 1px solid rgb(93, 0, 255);
     inline-size: 100%;
     block-size: 100%;
-    border-radius: 2rem;
     font: var(--baseFont);
     padding-inline: 1rem;
-    padding-block: 1rem;
+    padding-block: .5rem;
     outline: none;
+    background-color: #00000000;
+    color: var(--white);
+    border: none;
+    border: 0.2rem solid #00000000;
+    border-block-end: 0.2rem solid var(--gray30);
+}
+
+.input-search:focus {
+    border-radius: 2rem;
+    border: 0.2rem solid var(--gray30);
+    transition: .2s ease;
 }
 
 
